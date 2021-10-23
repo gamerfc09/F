@@ -28,7 +28,28 @@ int main()
     /* Find sum of all numbers */
     for(i=1; i<=n; i++)
     {
-        sum += i;
+       import java.util.*;
+
+ // Compiler version JDK 11.0.2
+
+ class Dcoder
+ {
+   public static void main(String args[])
+   { 
+    System.out.println("Hello, Dcoder!");
+    Scanner sc=new Scanner("G Gautam 124");
+  //  String a=sc.next();
+  String a="G";
+ // sc.next();
+    System.out.println(sc.hasNext(a));
+    sc.next();
+    String b="Gautam";
+    System.out.println(sc.hasNext(b));
+    
+    
+   }
+ }
+ sum += i;
     }
 
     printf("Sum of first %d natural numbers = %d", n, sum);
